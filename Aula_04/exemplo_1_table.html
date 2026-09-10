@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo 1 - Tabela</title>
+</head>
+
+<body>
+
+    <!-- table -> tabela -->
+    <table border="1" width="100%">
+
+        <!-- thead -> cabeçalho da tabela -->
+        <thead style="background-color: blue; color: #ffffff;">
+
+            <!-- primeira linha -->
+            <tr>
+                <th>Disciplina</th>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+                <th>Nota 3</th>
+                <th>Nota 4</th>
+                <th>Média</th>
+            </tr>
+
+        </thead>
+
+        <!-- tbody -> corpo da tabela -->
+        <tbody>
+
+            <!-- segunda linha -->
+            <tr>
+                <td>Matemática</td>
+                <td>10,0</td>
+                <td>9,0</td>
+                <td>8,0</td>
+                <td>7,0</td>
+                <td>8,5</td>
+            </tr>
+
+            <!-- terceira linha -->
+            <tr>
+                <td>Português</td>
+                <td>9,5</td>
+                <td>10,0</td>
+                <td>8,0</td>
+                <td>8,5</td>
+                <td>9,0</td>
+            </tr>
+
+            <!-- quarta linha -->
+            <tr>
+                <!-- colspan -> mesclar colunas -->
+                <th colspan="6">SENAI</th>
+            </tr>
+
+            <!-- quinta linha -->
+            <tr>
+                <th>Disciplina</th>
+                <th colspan="2">1º Semestre</th>
+                <th colspan="2">2º Semestre</th>
+                <th>Média</th>
+            </tr>
+
+            <!-- sexta linha -->
+            <tr>
+                <td>Português</td>
+                <td>9,0</td>
+                <td>9,0</td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td>9,0</td>
+            </tr>
+
+            <!-- sétima linha -->
+            <tr>
+                <td>Levantamento de Requisitos</td>
+                <td>9,0</td>
+                <td>8,0</td>
+                <td>8,5</td>
+            </tr>
+
+            <!-- oitava linha -->
+            <tr>
+                <td>Banco de Dados</td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td>8,0</td>
+                <td>10,0</td>
+                <td>9,0</td>
+            </tr>
+
+            <!-- nona linha -->
+            <tr>
+                <td>Linguagem de Marcação</td>
+                <td>10,0</td>
+                <td>10,0</td>
+                <td>10,0</td>
+            </tr>
+			<!-- decima linha-->
+			<tr style ="background-image: url('https://img.magnific.com/vetores-gratis/fundo-realista-de-ilusao-de-otica_52683-55962.jpg?semt=ais_hybrid&w=740&q=80');">
+					<!-- colspan -> mesclar colunas -->
+					<th colspan="5">Media total</th>
+					<td>9,0</td>
+              </tr>
+			</tbody>
+		</table>
+	</body>
+</html>
