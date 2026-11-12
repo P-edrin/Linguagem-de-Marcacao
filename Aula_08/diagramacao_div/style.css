@@ -1,0 +1,26 @@
+* {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+.minhaDiv {
+    border: 5px outset #eaea63;
+    width: 80%;
+    display: block;
+    margin: 5% auto 5%auto;
+    padding: 5%;
+
+}
+
+.corAzul {
+    border: 5px outset blue;
+}
+
+.corVermelha {
+    border: 5px outset red;
+}
+
+.corLaranja {
+    border: 5px outset #F57621;
+}
